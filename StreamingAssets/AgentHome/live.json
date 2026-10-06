@@ -45,26 +45,49 @@
   "has_gem": true,
   "gem": {
     "research_only": true,
-    "mode": "simulation",
-    "status_line": "gem simulation: WEBZ | research_only",
-    "updated_ct": "2026-10-06 1:49 PM CT",
-    "find_count": 5,
+    "mode": "live",
+    "status_line": "gem live: 1 finds | research_only",
+    "updated_ct": "2026-10-06 6:06 PM CT",
+    "updated_iso": "2026-10-06T23:06:38.220914+00:00",
+    "find_count": 1,
     "has_finds": true,
-    "radar_panel": "GEM RADAR (research_only)\n6bLRsa3T4f\u2026 [shortlisted]\nrainbow spiders [shortlisted] \u00d79.0\nWEBZ [shortlisted] \u00d79.0\nagents [shortlisted] \u00d74.5\ndevtools [shortlisted] \u00d74.5",
-    "x_feed_panel": "X / SOURCE FEED\n\u2022 lead: https://x.com/sample_scout_5/status/1900000000000000007\n\u2022 rainbow spiders: https://x.com/sample_early_2/status/1900000000000000001\n\u2022 WEBZ: https://x.com/sample_early_2/status/1900000000000000001\n\u2022 agents: https://x.com/sample_dev_4/status/1900000000000000012\n\u2022 devtools: https://x.com/sample_dev_4/status/1900000000000000012",
-    "growth_panel": "GROWTH 6h vs prior 18h\nrainbow spiders: \u00d79.0 (8 m / 8 a)\nWEBZ: \u00d79.0 (8 m / 8 a)\nagents: \u00d74.5 (5 m / 5 a)\ndevtools: \u00d74.5 (5 m / 5 a)",
-    "research_guard_panel": "RESEARCH ONLY\nNo mint / launch / trade.\nLAUNCH_MODE=dry_run\nSPIDER_ALLOW_LAUNCH=0\nmode=simulation",
-    "top_tickers": "WEBZ",
-    "top_phrases": "rainbow spiders",
-    "top_topics": "agents, devtools",
+    "finds": [
+      {
+        "id": "hn-devtools",
+        "kind": "",
+        "ticker": "",
+        "chain": "",
+        "address": "",
+        "narrative": ": Devtools / HN narrative \u2014 held (score 25).\n1 mentions, 1 authors. Research only \u2014 not a trade signal.",
+        "liquidity_usd": 0.0,
+        "volume_usd": 0.0,
+        "has_liquidity": false,
+        "has_volume": false,
+        "growth_6h_vs_18h": 0.0,
+        "has_growth": false,
+        "mentions": 1,
+        "authors": 1,
+        "score": 25,
+        "status": "held",
+        "risk_flags": [
+          "skeptic_hold"
+        ],
+        "source_link": "https://github.com/FeSens/openTPU",
+        "ts": "2026-10-06T23:06:27.246774+00:00",
+        "research_only": true
+      }
+    ],
+    "radar_panel": "GEM RADAR (research_only)\n [held]",
+    "x_feed_panel": "X / SOURCE FEED\n\u2022 lead: https://github.com/FeSens/openTPU",
+    "growth_panel": "GROWTH 6h vs prior 18h\n(no velocity yet)",
+    "research_guard_panel": "RESEARCH ONLY\nNo mint / launch / trade.\nLAUNCH_MODE=dry_run\nSPIDER_ALLOW_LAUNCH=0\nmode=live",
+    "top_tickers": "",
+    "top_phrases": "",
+    "top_topics": "",
     "terminal_lines": [
-      "gem> mode=simulation research_only=1 finds=5",
-      "gem> tickers WEBZ",
-      "gem> contracts 6bLRsa3T\u2026",
-      "gem> phrases rainbow spiders",
-      "gem> topics agents, devtools",
-      "gem> risk none raised",
-      "gem> hud 2026-10-06 1:49 PM CT"
+      "gem> mode=live research_only=1 finds=1",
+      "gem> risk skeptic_hold",
+      "gem> hud 2026-10-06 6:06 PM CT"
     ]
   },
   "terminal_lines": [
@@ -75,7 +98,7 @@
     "journal> no fills yet",
     "journal> balance unset",
     "wallet> no address yet",
-    "gem> mode=simulation research_only=1 finds=5"
+    "gem> mode=live research_only=1 finds=1"
   ],
   "agent_status_lines": [
     {
@@ -92,7 +115,7 @@
     },
     {
       "id": "gem-search",
-      "line": "gem simulation: WEBZ | research_only"
+      "line": "gem live: 1 finds | research_only"
     }
   ]
 }
