@@ -1,29 +1,29 @@
 {
-  "updated_ct": "2026-10-06 11:26 AM CT",
+  "updated_ct": "2026-10-06 01:01 PM CT",
   "sample": false,
   "has_scout": true,
   "scout": {
-    "status_line": "SOL $120.90 (+1.4% 24h) | fund +0.0019%/8h | OI $0.36B | BTC $85,962.00 (+0.8% 24h) | fund +0.0033%/8h | OI $2.58B | ETH",
-    "updated_ct": "2026-10-06 11:26 AM CT",
-    "sol_mark": 120.91,
-    "sol_chg_24h_pct": 1.41,
-    "sol_funding_okx_8h_pct": 0.0019,
-    "sol_oi_okx_usd": 363944723.53200036,
+    "status_line": "SOL $120.37 (+0.5% 24h) | fund +0.0018%/8h | OI $0.36B | BTC $85,535.70 (+0.4% 24h) | fund +0.0037%/8h | OI $2.57B | ETH",
+    "updated_ct": "2026-10-06 01:01 PM CT",
+    "sol_mark": 120.44,
+    "sol_chg_24h_pct": 0.52,
+    "sol_funding_okx_8h_pct": 0.0018,
+    "sol_oi_okx_usd": 356506500.98000044,
     "sol_lo_24h": 118.73,
     "sol_hi_24h": 121.95,
-    "btc_mark": 85979.0,
-    "btc_chg_24h_pct": 0.83,
-    "btc_funding_okx_8h_pct": 0.0033,
-    "btc_oi_okx_usd": 2576516151.511809,
-    "eth_mark": 2709.2,
-    "eth_chg_24h_pct": 0.46,
-    "eth_funding_okx_8h_pct": 0.0016,
-    "eth_oi_okx_usd": 1639498852.5554135,
-    "sol_panel": "$120.90\n24h +1.4%\nOI $0.36B",
-    "btc_panel": "$85,962.00\n24h +0.8%\nOI $2.58B",
-    "eth_panel": "$2,709.02\n24h +0.5%\nOI $1.64B",
-    "funding_panel": "SOL +0.0019%    BTC +0.0033%    ETH +0.0016%    live",
-    "brief_panel": "SOL $120.90 (+1.4% 24h)\nBias: bullish\nKey levels: $118.73 \u2013 $121.95\nFunding: SOL +0.0019% / BTC +0.0033% / ETH +0.0016%\nUpdated: 2026-10-06 11:26 AM CT"
+    "btc_mark": 85568.0,
+    "btc_chg_24h_pct": 0.36,
+    "btc_funding_okx_8h_pct": 0.0037,
+    "btc_oi_okx_usd": 2568759102.7182574,
+    "eth_mark": 2695.3,
+    "eth_chg_24h_pct": -0.17,
+    "eth_funding_okx_8h_pct": 0.0065,
+    "eth_oi_okx_usd": 1633457786.7076035,
+    "sol_panel": "$120.37\n24h +0.5%\nOI $0.36B",
+    "btc_panel": "$85,535.70\n24h +0.4%\nOI $2.57B",
+    "eth_panel": "$2,694.89\n24h -0.2%\nOI $1.63B",
+    "funding_panel": "SOL +0.0018%    BTC +0.0037%    ETH +0.0065%    live",
+    "brief_panel": "SOL $120.37 (+0.5% 24h)\nBias: bullish\nKey levels: $118.73 \u2013 $121.95\nFunding: SOL +0.0018% / BTC +0.0037% / ETH +0.0065%\nUpdated: 2026-10-06 01:01 PM CT"
   },
   "journal": {
     "has_balance": false,
@@ -42,20 +42,45 @@
     "sol_balance": 0.0,
     "updated_at": ""
   },
+  "has_gem": true,
+  "gem": {
+    "research_only": true,
+    "mode": "simulation",
+    "status_line": "gem simulation: WEBZ | research_only",
+    "updated_ct": "2026-10-06 1:04 PM CT",
+    "find_count": 5,
+    "has_finds": true,
+    "radar_panel": "GEM RADAR (research_only)\n6bLRsa3T4f\u2026 [shortlisted]\nrainbow spiders [shortlisted] \u00d79.0\nWEBZ [shortlisted] \u00d79.0\nagents [shortlisted] \u00d74.5\ndevtools [shortlisted] \u00d74.5",
+    "x_feed_panel": "X / SOURCE FEED\n\u2022 lead: https://x.com/sample_scout_5/status/1900000000000000007\n\u2022 rainbow spiders: https://x.com/sample_early_2/status/1900000000000000001\n\u2022 WEBZ: https://x.com/sample_early_2/status/1900000000000000001\n\u2022 agents: https://x.com/sample_dev_4/status/1900000000000000012\n\u2022 devtools: https://x.com/sample_dev_4/status/1900000000000000012",
+    "growth_panel": "GROWTH 6h vs prior 18h\nrainbow spiders: \u00d79.0 (8 m / 8 a)\nWEBZ: \u00d79.0 (8 m / 8 a)\nagents: \u00d74.5 (5 m / 5 a)\ndevtools: \u00d74.5 (5 m / 5 a)",
+    "research_guard_panel": "RESEARCH ONLY\nNo mint / launch / trade.\nLAUNCH_MODE=dry_run\nSPIDER_ALLOW_LAUNCH=0\nmode=simulation",
+    "top_tickers": "WEBZ",
+    "top_phrases": "rainbow spiders",
+    "top_topics": "agents, devtools",
+    "terminal_lines": [
+      "gem> mode=simulation research_only=1 finds=5",
+      "gem> tickers WEBZ",
+      "gem> contracts 6bLRsa3T\u2026",
+      "gem> phrases rainbow spiders",
+      "gem> topics agents, devtools",
+      "gem> risk none raised",
+      "gem> hud 2026-10-06 1:04 PM CT"
+    ]
+  },
   "terminal_lines": [
-    "scout> SOL $120.90 (+1.4%) fund +0.0019%",
-    "scout> BTC $85,962 (+0.8%) OI $2.58B",
-    "scout> ETH $2,709.02 (+0.5%) OI $1.64B",
-    "scout> SOL $120.90 (+1.4% 24h) | fund +0.0019%/8h | OI $0.36B | BTC $85,962.0",
+    "scout> SOL $120.37 (+0.5%) fund +0.0018%",
+    "scout> BTC $85,536 (+0.4%) OI $2.57B",
+    "scout> ETH $2,694.89 (-0.2%) OI $1.63B",
+    "scout> SOL $120.37 (+0.5% 24h) | fund +0.0018%/8h | OI $0.36B | BTC $85,535.7",
     "journal> no fills yet",
     "journal> balance unset",
     "wallet> no address yet",
-    "home> live sync 2026-10-06 11:26 AM CT"
+    "gem> mode=simulation research_only=1 finds=5"
   ],
   "agent_status_lines": [
     {
       "id": "perps-market-scout",
-      "line": "SOL $120.90 (+1.4%)"
+      "line": "SOL $120.37 (+0.5%)"
     },
     {
       "id": "trade-journal-bot",
@@ -64,6 +89,10 @@
     {
       "id": "wallet-watch",
       "line": "no address yet"
+    },
+    {
+      "id": "gem-search",
+      "line": "gem simulation: WEBZ | research_only"
     }
   ]
 }
