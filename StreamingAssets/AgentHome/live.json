@@ -47,7 +47,7 @@
     "research_only": true,
     "mode": "simulation",
     "status_line": "gem simulation: WEBZ | research_only",
-    "updated_ct": "2026-10-06 1:04 PM CT",
+    "updated_ct": "2026-10-06 1:49 PM CT",
     "find_count": 5,
     "has_finds": true,
     "radar_panel": "GEM RADAR (research_only)\n6bLRsa3T4f\u2026 [shortlisted]\nrainbow spiders [shortlisted] \u00d79.0\nWEBZ [shortlisted] \u00d79.0\nagents [shortlisted] \u00d74.5\ndevtools [shortlisted] \u00d74.5",
@@ -64,7 +64,7 @@
       "gem> phrases rainbow spiders",
       "gem> topics agents, devtools",
       "gem> risk none raised",
-      "gem> hud 2026-10-06 1:04 PM CT"
+      "gem> hud 2026-10-06 1:49 PM CT"
     ]
   },
   "terminal_lines": [
