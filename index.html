@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="apple-mobile-web-app-title" content="Agent Home">
+<meta name="application-name" content="Agent Home">
+<meta name="theme-color" content="#0A0A0E">
+<meta name="format-detection" content="telephone=no">
+<title>Agent Home</title>
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+<link rel="icon" type="image/png" href="favicon.png">
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #0A0A0E;
+               overscroll-behavior: none; -webkit-user-select: none; user-select: none; -webkit-touch-callout: none;
+               -webkit-tap-highlight-color: transparent; touch-action: none; }
+  /* Fill the screen but keep the canvas inside the iPhone safe area (notch / home indicator). */
+  #unity-container { position: fixed; top: env(safe-area-inset-top, 0px); right: env(safe-area-inset-right, 0px);
+                     bottom: env(safe-area-inset-bottom, 0px); left: env(safe-area-inset-left, 0px); background: #0A0A0E; }
+  #unity-canvas { display: block; width: 100%; height: 100%; background: #0A0A0E; outline: none; touch-action: none; }
+  #loading { position: fixed; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center;
+             font: 600 18px/1.4 Menlo, Consolas, monospace; color: #FF1493; letter-spacing: 0.12em; pointer-events: none; }
+  #loading .logo { width: 44px; height: 44px; border: 5px solid #FF1493; box-shadow: 0 0 18px #FF1493; margin-bottom: 18px;
+                   display: flex; align-items: center; justify-content: center; }
+  #loading .logo i { width: 14px; height: 14px; background: #FF1493; }
+  #bar { width: 220px; height: 6px; margin-top: 14px; border: 1px solid #FF1493; }
+  #bar div { width: 0%; height: 100%; background: #FF1493; box-shadow: 0 0 10px #FF1493; transition: width 0.15s; }
+  #msg { margin-top: 12px; font-size: 12px; color: #9a9ab0; letter-spacing: 0.04em; max-width: 80vw; text-align: center; }
+  #warn { position: fixed; left: 50%; top: 10px; transform: translateX(-50%); display: none; z-index: 10; padding: 6px 10px;
+          font: 12px Menlo, Consolas, monospace; color: #fff; background: rgba(255,20,147,0.85); max-width: 90vw; }
+</style>
+</head>
+<body>
+<div id="unity-container"><canvas id="unity-canvas" tabindex="-1"></canvas></div>
+<div id="loading"><div class="logo"><i></i></div><div>AGENT HOME</div><div id="bar"><div></div></div><div id="msg">loading...</div></div>
+<div id="warn"></div>
+<script>
+  // Stop iOS Safari page zoom / rubber-banding so every gesture goes to the scene.
+  document.addEventListener("gesturestart", function (e) { e.preventDefault(); }, { passive: false });
+  document.addEventListener("touchmove", function (e) { e.preventDefault(); }, { passive: false });
+  document.addEventListener("dblclick", function (e) { e.preventDefault(); }, { passive: false });
+
+  var canvas = document.querySelector("#unity-canvas");
+  var loading = document.querySelector("#loading");
+  var bar = document.querySelector("#bar div");
+  var msg = document.querySelector("#msg");
+  function showBanner(text, type) {
+    var w = document.querySelector("#warn");
+    w.textContent = text; w.style.display = "block";
+    if (type !== "error") setTimeout(function () { w.style.display = "none"; }, 5000);
+  }
+
+  var buildUrl = "Build";
+  var loaderUrl = buildUrl + "/WebGL.loader.js";
+  var config = {
+    arguments: [],
+    dataUrl: buildUrl + "/WebGL.data.unityweb",
+    frameworkUrl: buildUrl + "/WebGL.framework.js.unityweb",
+    codeUrl: buildUrl + "/WebGL.wasm.unityweb",
+    streamingAssetsUrl: "StreamingAssets",
+    companyName: "Jerome",
+    productName: "Agent Home",
+    productVersion: "0.1.0",
+    showBanner: showBanner,
+    matchWebGLToCanvasSize: true,
+    // Phones report 3x; 2x is sharp enough and keeps bloom affordable on the GPU.
+    devicePixelRatio: Math.min(window.devicePixelRatio || 1, 2)
+  };
+
+  var script = document.createElement("script");
+  script.src = loaderUrl;
+  script.onload = function () {
+    createUnityInstance(canvas, config, function (progress) {
+      bar.style.width = Math.round(100 * progress) + "%";
+      msg.textContent = progress < 0.9 ? "downloading " + Math.round(100 * progress) + "%" : "starting...";
+    }).then(function (unityInstance) {
+      window.unityInstance = unityInstance;
+      loading.style.display = "none";
+      canvas.focus();
+    }).catch(function (message) {
+      msg.textContent = "Could not start: " + message;
+      msg.style.color = "#FF1493";
+    });
+  };
+  script.onerror = function () { msg.textContent = "Could not load " + loaderUrl; msg.style.color = "#FF1493"; };
+  document.body.appendChild(script);
+</script>
+</body>
+</html>
