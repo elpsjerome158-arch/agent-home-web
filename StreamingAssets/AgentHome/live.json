@@ -1,0 +1,69 @@
+{
+  "updated_ct": "2026-10-06 11:26 AM CT",
+  "sample": false,
+  "has_scout": true,
+  "scout": {
+    "status_line": "SOL $120.90 (+1.4% 24h) | fund +0.0019%/8h | OI $0.36B | BTC $85,962.00 (+0.8% 24h) | fund +0.0033%/8h | OI $2.58B | ETH",
+    "updated_ct": "2026-10-06 11:26 AM CT",
+    "sol_mark": 120.91,
+    "sol_chg_24h_pct": 1.41,
+    "sol_funding_okx_8h_pct": 0.0019,
+    "sol_oi_okx_usd": 363944723.53200036,
+    "sol_lo_24h": 118.73,
+    "sol_hi_24h": 121.95,
+    "btc_mark": 85979.0,
+    "btc_chg_24h_pct": 0.83,
+    "btc_funding_okx_8h_pct": 0.0033,
+    "btc_oi_okx_usd": 2576516151.511809,
+    "eth_mark": 2709.2,
+    "eth_chg_24h_pct": 0.46,
+    "eth_funding_okx_8h_pct": 0.0016,
+    "eth_oi_okx_usd": 1639498852.5554135,
+    "sol_panel": "$120.90\n24h +1.4%\nOI $0.36B",
+    "btc_panel": "$85,962.00\n24h +0.8%\nOI $2.58B",
+    "eth_panel": "$2,709.02\n24h +0.5%\nOI $1.64B",
+    "funding_panel": "SOL +0.0019%    BTC +0.0033%    ETH +0.0016%    live",
+    "brief_panel": "SOL $120.90 (+1.4% 24h)\nBias: bullish\nKey levels: $118.73 \u2013 $121.95\nFunding: SOL +0.0019% / BTC +0.0033% / ETH +0.0016%\nUpdated: 2026-10-06 11:26 AM CT"
+  },
+  "journal": {
+    "has_balance": false,
+    "balance": 0.0,
+    "balance_note": "Set by Jerome or derived from starting equity + journaled P&L; not live exchange.",
+    "weekly_wins": 0,
+    "weekly_losses": 0,
+    "has_weekly_avg_r": false,
+    "weekly_avg_r": 0.0,
+    "weekly_panel": "Week of \u2014\nTrades: 0   W/L: 0/0\nAvg R: \u2014\nBalance: \u2014",
+    "open_trades_panel": "SYM   SIDE  SIZE  ENTRY  uPnL\n(no open trades / fills yet)",
+    "recent_fill_lines": []
+  },
+  "wallet": {
+    "has_sol_balance": false,
+    "sol_balance": 0.0,
+    "updated_at": ""
+  },
+  "terminal_lines": [
+    "scout> SOL $120.90 (+1.4%) fund +0.0019%",
+    "scout> BTC $85,962 (+0.8%) OI $2.58B",
+    "scout> ETH $2,709.02 (+0.5%) OI $1.64B",
+    "scout> SOL $120.90 (+1.4% 24h) | fund +0.0019%/8h | OI $0.36B | BTC $85,962.0",
+    "journal> no fills yet",
+    "journal> balance unset",
+    "wallet> no address yet",
+    "home> live sync 2026-10-06 11:26 AM CT"
+  ],
+  "agent_status_lines": [
+    {
+      "id": "perps-market-scout",
+      "line": "SOL $120.90 (+1.4%)"
+    },
+    {
+      "id": "trade-journal-bot",
+      "line": "no fills yet"
+    },
+    {
+      "id": "wallet-watch",
+      "line": "no address yet"
+    }
+  ]
+}
