@@ -1,10 +1,10 @@
 {
-  "updated_ct": "2026-10-06 01:01 PM CT",
+  "updated_ct": "2026-10-06 06:39 PM CT",
   "sample": false,
   "has_scout": true,
   "scout": {
     "status_line": "SOL $120.37 (+0.5% 24h) | fund +0.0018%/8h | OI $0.36B | BTC $85,535.70 (+0.4% 24h) | fund +0.0037%/8h | OI $2.57B | ETH",
-    "updated_ct": "2026-10-06 01:01 PM CT",
+    "updated_ct": "2026-10-06 06:39 PM CT",
     "sol_mark": 120.44,
     "sol_chg_24h_pct": 0.52,
     "sol_funding_okx_8h_pct": 0.0018,
@@ -47,8 +47,8 @@
     "research_only": true,
     "mode": "live",
     "status_line": "gem live: 1 finds | research_only",
-    "updated_ct": "2026-10-06 6:06 PM CT",
-    "updated_iso": "2026-10-06T23:06:38.220914+00:00",
+    "updated_ct": "2026-10-06 06:39 PM CT",
+    "updated_iso": "2026-10-06T23:38:53.177691+00:00",
     "find_count": 1,
     "has_finds": true,
     "finds": [
@@ -73,7 +73,7 @@
           "skeptic_hold"
         ],
         "source_link": "https://github.com/FeSens/openTPU",
-        "ts": "2026-10-06T23:06:27.246774+00:00",
+        "ts": "2026-10-06T23:36:28.344458+00:00",
         "research_only": true
       }
     ],
@@ -87,7 +87,7 @@
     "terminal_lines": [
       "gem> mode=live research_only=1 finds=1",
       "gem> risk skeptic_hold",
-      "gem> hud 2026-10-06 6:06 PM CT"
+      "gem> hud 2026-10-06 6:38 PM CT"
     ]
   },
   "terminal_lines": [
