@@ -1,10 +1,10 @@
 {
-  "updated_ct": "2026-10-06 06:39 PM CT",
+  "updated_ct": "2026-10-06 01:01 PM CT",
   "sample": false,
   "has_scout": true,
   "scout": {
     "status_line": "SOL $120.37 (+0.5% 24h) | fund +0.0018%/8h | OI $0.36B | BTC $85,535.70 (+0.4% 24h) | fund +0.0037%/8h | OI $2.57B | ETH",
-    "updated_ct": "2026-10-06 06:39 PM CT",
+    "updated_ct": "2026-10-06 01:01 PM CT",
     "sol_mark": 120.44,
     "sol_chg_24h_pct": 0.52,
     "sol_funding_okx_8h_pct": 0.0018,
@@ -46,10 +46,10 @@
   "gem": {
     "research_only": true,
     "mode": "live",
-    "status_line": "gem live: 1 finds | research_only",
-    "updated_ct": "2026-10-06 06:39 PM CT",
-    "updated_iso": "2026-10-06T23:38:53.177691+00:00",
-    "find_count": 1,
+    "status_line": "gem live: 2 finds | research_only",
+    "updated_ct": "2026-10-08 10:26 AM CT",
+    "updated_iso": "2026-10-08T15:26:52.752303+00:00",
+    "find_count": 2,
     "has_finds": true,
     "finds": [
       {
@@ -58,36 +58,58 @@
         "ticker": "",
         "chain": "",
         "address": "",
-        "narrative": ": Devtools / HN narrative \u2014 held (score 25).\n1 mentions, 1 authors. Research only \u2014 not a trade signal.",
+        "narrative": ": Devtools / HN narrative \u2014 shortlisted (score 100).\n3 mentions, 3 authors. Research only \u2014 not a trade signal.",
         "liquidity_usd": 0.0,
         "volume_usd": 0.0,
         "has_liquidity": false,
         "has_volume": false,
         "growth_6h_vs_18h": 0.0,
         "has_growth": false,
-        "mentions": 1,
-        "authors": 1,
+        "mentions": 3,
+        "authors": 3,
+        "score": 100,
+        "status": "shortlisted",
+        "risk_flags": [],
+        "source_link": "https://github.com/FeSens/openTPU",
+        "ts": "2026-10-07T15:53:48.627238+00:00",
+        "research_only": true
+      },
+      {
+        "id": "hn-agents",
+        "kind": "",
+        "ticker": "",
+        "chain": "",
+        "address": "",
+        "narrative": ": Agents / HN narrative \u2014 held (score 25).\n2 mentions, 2 authors. Research only \u2014 not a trade signal.",
+        "liquidity_usd": 0.0,
+        "volume_usd": 0.0,
+        "has_liquidity": false,
+        "has_volume": false,
+        "growth_6h_vs_18h": 0.0,
+        "has_growth": false,
+        "mentions": 2,
+        "authors": 2,
         "score": 25,
         "status": "held",
         "risk_flags": [
           "skeptic_hold"
         ],
-        "source_link": "https://github.com/FeSens/openTPU",
-        "ts": "2026-10-06T23:36:28.344458+00:00",
+        "source_link": "https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
+        "ts": "2026-10-07T15:53:48.626436+00:00",
         "research_only": true
       }
     ],
-    "radar_panel": "GEM RADAR (research_only)\n [held]",
-    "x_feed_panel": "X / SOURCE FEED\n\u2022 lead: https://github.com/FeSens/openTPU",
+    "radar_panel": "GEM RADAR (research_only)\n [shortlisted]\n [held]",
+    "x_feed_panel": "X / SOURCE FEED\n\u2022 lead: https://github.com/FeSens/openTPU\n\u2022 lead: https://www.reuters.com/world/south-koreas-lee-says-ai-appears-have-been-used-bank-hacks-2026-10-06/",
     "growth_panel": "GROWTH 6h vs prior 18h\n(no velocity yet)",
     "research_guard_panel": "RESEARCH ONLY\nNo mint / launch / trade.\nLAUNCH_MODE=dry_run\nSPIDER_ALLOW_LAUNCH=0\nmode=live",
     "top_tickers": "",
     "top_phrases": "",
     "top_topics": "",
     "terminal_lines": [
-      "gem> mode=live research_only=1 finds=1",
+      "gem> mode=live research_only=1 finds=2",
       "gem> risk skeptic_hold",
-      "gem> hud 2026-10-06 6:38 PM CT"
+      "gem> hud 2026-10-08 10:26 AM CT"
     ]
   },
   "terminal_lines": [
@@ -98,7 +120,7 @@
     "journal> no fills yet",
     "journal> balance unset",
     "wallet> no address yet",
-    "gem> mode=live research_only=1 finds=1"
+    "gem> mode=live research_only=1 finds=2"
   ],
   "agent_status_lines": [
     {
@@ -115,7 +137,7 @@
     },
     {
       "id": "gem-search",
-      "line": "gem live: 1 finds | research_only"
+      "line": "gem live: 2 finds | research_only"
     }
   ]
 }
