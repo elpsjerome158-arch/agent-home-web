@@ -1,0 +1,310 @@
+{
+ "schema": "agent-home-brain-public/1",
+ "generated_iso": "2026-10-17T23:43:12+00:00",
+ "updated": "2026-10-17",
+ "note_count": 12,
+ "sections": [
+  {
+   "name": "core",
+   "count": 4,
+   "updated": "2026-10-17"
+  },
+  {
+   "name": "projects",
+   "count": 8,
+   "updated": "2026-10-17"
+  }
+ ],
+ "notes": [
+  {
+   "id": "attention.md",
+   "title": "Attention",
+   "section": "core",
+   "updated": "2026-10-17",
+   "tags": [
+    "attention"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "chief-of-staff",
+    "robinhood-desk"
+   ]
+  },
+  {
+   "id": "INDEX.md",
+   "title": "Index",
+   "section": "core",
+   "updated": "2026-10-14",
+   "tags": [
+    "index"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "cash-flow-agent",
+    "perps-market-scout",
+    "robinhood-desk"
+   ]
+  },
+  {
+   "id": "log.md",
+   "title": "Log",
+   "section": "core",
+   "updated": "2026-10-14",
+   "tags": [
+    "log"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "chief-of-staff",
+    "robinhood-desk"
+   ]
+  },
+  {
+   "id": "rules.md",
+   "title": "Rules",
+   "section": "core",
+   "updated": "2026-10-14",
+   "tags": [
+    "rules"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "agent-home-builder",
+    "cash-flow-agent",
+    "chief-of-staff",
+    "devils-advocate",
+    "iphone-app-builder",
+    "pattern-coach",
+    "perps-market-scout",
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout",
+    "trade-journal-bot",
+    "wallet-watch"
+   ]
+  },
+  {
+   "id": "projects/agent-home-unity.md",
+   "title": "Agent Home Unity",
+   "section": "projects",
+   "updated": "2026-10-14",
+   "tags": [
+    "agent-home"
+   ],
+   "owners": [
+    "agent-home-builder",
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/brain-visual.md",
+   "title": "Brain Visual",
+   "section": "projects",
+   "updated": "2026-10-14",
+   "tags": [
+    "brain"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "grok-bot"
+   ]
+  },
+  {
+   "id": "projects/cash-flow-business.md",
+   "title": "Cash Flow Business",
+   "section": "projects",
+   "updated": "2026-10-14",
+   "tags": [
+    "cashflow"
+   ],
+   "owners": [
+    "brain",
+    "cash-flow-agent"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/comptia-certs.md",
+   "title": "Comptia Certs",
+   "section": "projects",
+   "updated": "2026-10-15",
+   "tags": [
+    "certs"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/iphone-apps.md",
+   "title": "Iphone Apps",
+   "section": "projects",
+   "updated": "2026-10-14",
+   "tags": [
+    "apps"
+   ],
+   "owners": [
+    "brain",
+    "iphone-app-builder"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/perps-trading.md",
+   "title": "Perps Trading",
+   "section": "projects",
+   "updated": "2026-10-14",
+   "tags": [
+    "perps",
+    "trading"
+   ],
+   "owners": [
+    "brain",
+    "perps-market-scout",
+    "trade-journal-bot"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/robinhood-desk.md",
+   "title": "Robinhood Desk",
+   "section": "projects",
+   "updated": "2026-10-14",
+   "tags": [
+    "robinhood-desk",
+    "trading"
+   ],
+   "owners": [
+    "brain",
+    "devils-advocate",
+    "pattern-coach",
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout",
+    "trade-journal-bot"
+   ],
+   "linked_agents": [
+    "chief-of-staff"
+   ]
+  },
+  {
+   "id": "projects/robinhood-desk-playbook.md",
+   "title": "Robinhood Desk Playbook",
+   "section": "projects",
+   "updated": "2026-10-17",
+   "tags": [
+    "playbook",
+    "robinhood-desk",
+    "trading"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "chief-of-staff",
+    "robinhood-desk"
+   ]
+  }
+ ],
+ "edges": [
+  [
+   "INDEX.md",
+   "attention.md"
+  ],
+  [
+   "INDEX.md",
+   "log.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/agent-home-unity.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/brain-visual.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/cash-flow-business.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/comptia-certs.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/iphone-apps.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/perps-trading.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/robinhood-desk-playbook.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/robinhood-desk.md"
+  ],
+  [
+   "INDEX.md",
+   "rules.md"
+  ],
+  [
+   "attention.md",
+   "projects/robinhood-desk-playbook.md"
+  ],
+  [
+   "log.md",
+   "projects/brain-visual.md"
+  ],
+  [
+   "log.md",
+   "projects/comptia-certs.md"
+  ],
+  [
+   "log.md",
+   "projects/robinhood-desk-playbook.md"
+  ],
+  [
+   "rules.md",
+   "projects/robinhood-desk-playbook.md"
+  ]
+ ],
+ "readers": [
+  "agent-home-builder",
+  "cash-flow-agent",
+  "chief-of-staff",
+  "devils-advocate",
+  "iphone-app-builder",
+  "pattern-coach",
+  "perps-market-scout",
+  "risk-coach",
+  "robinhood-desk",
+  "setup-scout",
+  "trade-journal-bot",
+  "wallet-watch"
+ ],
+ "maintainer": "brain",
+ "withheld": {
+  "people": 3,
+  "personal": 2,
+  "secret_paths": 0,
+  "raw_snapshots": 20,
+  "note": "raw/, private/, people/ and personal notes are never published"
+ },
+ "redaction": "structure only: no bodies, summaries, amounts, accounts, addresses or contact details"
+}
