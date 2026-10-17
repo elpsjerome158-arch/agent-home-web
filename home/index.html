@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en"><head>
 <meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"/>
-<meta name="theme-color" content="#07060f"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#0A0A12"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
 <meta name="apple-mobile-web-app-title" content="Agent Home"/>
@@ -10,24 +10,29 @@
 <link rel="apple-touch-icon" href="/agent-home-web/home/icons/icon-180.png"/>
 <link rel="icon" href="/agent-home-web/home/icons/icon-192.png"/>
 <title>Agent Home · v3</title>
-  <script type="module" crossorigin src="/agent-home-web/home/assets/index-DgZNI86e.js"></script>
-  <link rel="stylesheet" crossorigin href="/agent-home-web/home/assets/index-Bt9RrIil.css">
+  <script type="module" crossorigin src="/agent-home-web/home/assets/index-zisBLFSp.js"></script>
+  <link rel="stylesheet" crossorigin href="/agent-home-web/home/assets/index-CVsg89yi.css">
 </head><body>
-<div id="frame">
-  <header id="top">
-    <div class="brand"><span class="logo"></span>AGENT HOME <em>JEROME</em></div>
-    <div class="meta"><span id="agentCount">0 AGENTS</span><span id="feedDot" class="lamp grey"></span><span id="clock">--:--</span><a id="credits" href="./THIRD_PARTY.html" target="_blank">credits</a></div>
-  </header>
-  <div id="stage"><canvas id="c"></canvas>
-    <div id="captions"></div>
-    <div id="banner" class="hidden"></div>
-  </div>
-  <div id="cards"></div>
-  <section id="sheet">
-    <div id="grab"><span></span></div>
-    <nav id="tabs"><button data-t="desk" class="on">Desk</button><button data-t="market">Market</button><button data-t="loft">Signal Loft</button><button data-t="chat">Chat</button></nav>
+<header id="top">
+  <div class="brand"><b>AGENT HOME</b><small>GROKBOT + JEROME · OPS DASHBOARD · RESEARCH ONLY</small></div>
+  <div class="meta"><span id="feedDot" class="lamp grey"></span><span id="clock">--:-- CT</span><a id="credits" href="./THIRD_PARTY.html" target="_blank">CREDITS</a></div>
+</header>
+<div id="banner" class="hidden"></div>
+<main id="wrap">
+  <section id="agents"></section>
+  <section id="hero" class="panel"><div class="ptitle">WAR ROOM <span id="agentCount"></span></div>
+    <div id="stage"><canvas id="c"></canvas><svg id="graph"></svg><div id="bubbles"></div><div class="hint">TAP A MASCOT</div></div>
+  </section>
+  <svg id="wires"></svg>
+  <section id="tabsec" class="panel">
+    <nav id="tabs"><button data-t="desk" class="on">DESK</button><button data-t="market">MARKET</button><button data-t="loft">SIGNAL LOFT</button><button data-t="chat">CHAT</button></nav>
     <div id="panel"></div>
   </section>
-  <div id="detail" class="hidden"></div>
-</div>
+  <section id="bottom">
+    <div class="panel" id="mkt"><div class="ptitle">MARKET · SOL / BTC / ETH <span>PUBLIC SCOUT DATA</span></div><div id="mktLeg"></div><canvas id="mktC"></canvas><div class="note" id="mktNote"></div></div>
+    <div class="panel"><div class="ptitle">SCOUT_ANALYSIS</div><canvas id="candC"></canvas><div class="note">24h candle per coin: close = mark, open = derived from 24h change, high/low = scout 24h range.</div></div>
+    <div class="panel"><div class="ptitle">HARVESTED.DB</div><div id="db"><div id="dbIn"></div></div></div>
+  </section>
+</main>
+<div id="detail" class="hidden"></div>
 </body></html>
