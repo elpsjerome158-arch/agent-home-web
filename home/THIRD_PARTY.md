@@ -7,6 +7,8 @@
 | spaceship-dashboard (DC INFOSEC) | /workspace/ref/spaceship-dashboard | MIT | Design ideas only: department rooms with accent colors, status-lamp colors, data-flow lines between linked agents. No code copied; `src/services` not used. |
 | Rajdhani (Indian Type Foundry) via @fontsource/rajdhani | https://fonts.google.com/specimen/Rajdhani | SIL OFL 1.1 | Headers, panel titles and numbers (latin 600/700, bundled) |
 | JetBrains Mono via @fontsource/jetbrains-mono | https://github.com/JetBrains/JetBrainsMono | SIL OFL 1.1 | Monospace data across the app (latin 400/800, bundled) |
+| Coinbase Exchange public market data API | https://docs.cdp.coinbase.com/exchange/reference | Public API terms (no key, CORS *) | SOL/BTC/ETH-USD ticker, 24h stats and hourly candles, fetched live in the browser |
+| Kraken public REST Ticker | https://docs.kraken.com/api/ | Public API terms (no key) | Fallback ticker when Coinbase is unreachable |
 | Vite / TypeScript | https://github.com/vitejs/vite · https://github.com/microsoft/TypeScript | MIT · Apache-2.0 | Build tooling (dev only) |
 
 
