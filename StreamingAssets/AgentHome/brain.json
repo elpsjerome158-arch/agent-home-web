@@ -1,18 +1,28 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-17T23:43:12+00:00",
- "updated": "2026-10-17",
- "note_count": 12,
+ "generated_iso": "2026-10-19T09:13:42+00:00",
+ "updated": "2026-10-19",
+ "note_count": 19,
  "sections": [
   {
    "name": "core",
    "count": 4,
-   "updated": "2026-10-17"
+   "updated": "2026-10-19"
+  },
+  {
+   "name": "out",
+   "count": 1,
+   "updated": "2026-10-18"
   },
   {
    "name": "projects",
-   "count": 8,
-   "updated": "2026-10-17"
+   "count": 12,
+   "updated": "2026-10-19"
+  },
+  {
+   "name": "state",
+   "count": 2,
+   "updated": "2026-10-18"
   }
  ],
  "notes": [
@@ -20,7 +30,7 @@
    "id": "attention.md",
    "title": "Attention",
    "section": "core",
-   "updated": "2026-10-17",
+   "updated": "2026-10-19",
    "tags": [
     "attention"
    ],
@@ -62,7 +72,8 @@
    ],
    "linked_agents": [
     "chief-of-staff",
-    "robinhood-desk"
+    "robinhood-desk",
+    "wallet-watch"
    ]
   },
   {
@@ -92,6 +103,17 @@
    ]
   },
   {
+   "id": "out/README.md",
+   "title": "Out README",
+   "section": "out",
+   "updated": "2026-10-18",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
    "id": "projects/agent-home-unity.md",
    "title": "Agent Home Unity",
    "section": "projects",
@@ -103,7 +125,9 @@
     "agent-home-builder",
     "brain"
    ],
-   "linked_agents": []
+   "linked_agents": [
+    "chief-of-staff"
+   ]
   },
   {
    "id": "projects/brain-visual.md",
@@ -145,7 +169,9 @@
    "owners": [
     "brain"
    ],
-   "linked_agents": []
+   "linked_agents": [
+    "chief-of-staff"
+   ]
   },
   {
    "id": "projects/iphone-apps.md",
@@ -158,6 +184,30 @@
    "owners": [
     "brain",
     "iphone-app-builder"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/memecoin-scalping-playbook.md",
+   "title": "Memecoin Scalping Playbook",
+   "section": "projects",
+   "updated": "2026-10-18",
+   "tags": [
+    "playbook"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "projects/open-decisions.md",
+   "title": "Open Decisions",
+   "section": "projects",
+   "updated": "2026-10-19",
+   "tags": [],
+   "owners": [
+    "brain"
    ],
    "linked_agents": []
   },
@@ -175,7 +225,22 @@
     "perps-market-scout",
     "trade-journal-bot"
    ],
-   "linked_agents": []
+   "linked_agents": [
+    "chief-of-staff"
+   ]
+  },
+  {
+   "id": "projects/polymarket-lessons.md",
+   "title": "Polymarket Lessons",
+   "section": "projects",
+   "updated": "2026-10-18",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "robinhood-desk"
+   ]
   },
   {
    "id": "projects/robinhood-desk.md",
@@ -203,7 +268,7 @@
    "id": "projects/robinhood-desk-playbook.md",
    "title": "Robinhood Desk Playbook",
    "section": "projects",
-   "updated": "2026-10-17",
+   "updated": "2026-10-19",
    "tags": [
     "playbook",
     "robinhood-desk",
@@ -214,8 +279,47 @@
    ],
    "linked_agents": [
     "chief-of-staff",
-    "robinhood-desk"
+    "devils-advocate",
+    "pattern-coach",
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout"
    ]
+  },
+  {
+   "id": "projects/rsi-tracker.md",
+   "title": "Rsi Tracker",
+   "section": "projects",
+   "updated": "2026-10-19",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "state/README.md",
+   "title": "State README",
+   "section": "state",
+   "updated": "2026-10-18",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "iphone-app-builder"
+   ]
+  },
+  {
+   "id": "state/tips-log.md",
+   "title": "Tips Log",
+   "section": "state",
+   "updated": "2026-10-18",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
   }
  ],
  "edges": [
@@ -226,6 +330,10 @@
   [
    "INDEX.md",
    "log.md"
+  ],
+  [
+   "INDEX.md",
+   "out/README.md"
   ],
   [
    "INDEX.md",
@@ -249,7 +357,19 @@
   ],
   [
    "INDEX.md",
+   "projects/memecoin-scalping-playbook.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "INDEX.md",
    "projects/perps-trading.md"
+  ],
+  [
+   "INDEX.md",
+   "projects/polymarket-lessons.md"
   ],
   [
    "INDEX.md",
@@ -261,7 +381,27 @@
   ],
   [
    "INDEX.md",
+   "projects/rsi-tracker.md"
+  ],
+  [
+   "INDEX.md",
    "rules.md"
+  ],
+  [
+   "INDEX.md",
+   "state/README.md"
+  ],
+  [
+   "INDEX.md",
+   "state/tips-log.md"
+  ],
+  [
+   "attention.md",
+   "projects/memecoin-scalping-playbook.md"
+  ],
+  [
+   "attention.md",
+   "projects/open-decisions.md"
   ],
   [
    "attention.md",
@@ -277,11 +417,39 @@
   ],
   [
    "log.md",
+   "projects/memecoin-scalping-playbook.md"
+  ],
+  [
+   "log.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "log.md",
+   "projects/polymarket-lessons.md"
+  ],
+  [
+   "log.md",
    "projects/robinhood-desk-playbook.md"
+  ],
+  [
+   "log.md",
+   "projects/rsi-tracker.md"
   ],
   [
    "rules.md",
    "projects/robinhood-desk-playbook.md"
+  ],
+  [
+   "projects/memecoin-scalping-playbook.md",
+   "projects/polymarket-lessons.md"
+  ],
+  [
+   "projects/robinhood-desk-playbook.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "projects/robinhood-desk-playbook.md",
+   "projects/polymarket-lessons.md"
   ]
  ],
  "readers": [
@@ -303,7 +471,7 @@
   "people": 3,
   "personal": 2,
   "secret_paths": 0,
-  "raw_snapshots": 20,
+  "raw_snapshots": 43,
   "note": "raw/, private/, people/ and personal notes are never published"
  },
  "redaction": "structure only: no bodies, summaries, amounts, accounts, addresses or contact details"
