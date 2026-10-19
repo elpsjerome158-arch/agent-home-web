@@ -1,6 +1,6 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-19T15:31:25+00:00",
+ "generated_iso": "2026-10-19T17:17:50+00:00",
  "updated": "2026-10-19",
  "note_count": 20,
  "sections": [
@@ -503,7 +503,7 @@
   "people": 3,
   "personal": 2,
   "secret_paths": 0,
-  "raw_snapshots": 43,
+  "raw_snapshots": 59,
   "note": "raw/, private/, people/ and personal notes are never published"
  },
  "redaction": "structure only: no bodies, summaries, amounts, accounts, addresses or contact details"
