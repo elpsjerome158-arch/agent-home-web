@@ -1,8 +1,8 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-19T09:13:42+00:00",
+ "generated_iso": "2026-10-19T15:31:25+00:00",
  "updated": "2026-10-19",
- "note_count": 19,
+ "note_count": 20,
  "sections": [
   {
    "name": "core",
@@ -11,8 +11,8 @@
   },
   {
    "name": "out",
-   "count": 1,
-   "updated": "2026-10-18"
+   "count": 2,
+   "updated": "2026-10-19"
   },
   {
    "name": "projects",
@@ -99,6 +99,26 @@
     "robinhood-desk",
     "setup-scout",
     "trade-journal-bot",
+    "wallet-watch"
+   ]
+  },
+  {
+   "id": "out/morning-2026-10-19.md",
+   "title": "Morning page 2026-10-19",
+   "section": "out",
+   "updated": "2026-10-19",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "agent-home-builder",
+    "devils-advocate",
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout",
     "wallet-watch"
    ]
   },
@@ -409,6 +429,10 @@
   ],
   [
    "log.md",
+   "out/morning-2026-10-19.md"
+  ],
+  [
+   "log.md",
    "projects/brain-visual.md"
   ],
   [
@@ -450,6 +474,14 @@
   [
    "projects/robinhood-desk-playbook.md",
    "projects/polymarket-lessons.md"
+  ],
+  [
+   "out/morning-2026-10-19.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "out/morning-2026-10-19.md",
+   "projects/rsi-tracker.md"
   ]
  ],
  "readers": [
