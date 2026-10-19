@@ -1,6 +1,6 @@
 {
-  "updated_ct": "2026-10-19 8:42 AM CT",
-  "updated_iso": "2026-10-19T13:42:00+00:00",
+  "updated_ct": "2026-10-19 9:44 AM CT",
+  "updated_iso": "2026-10-19T14:44:41.016493+00:00",
   "sample": false,
   "has_scout": true,
   "scout": {
@@ -45,8 +45,8 @@
     "research_only": true,
     "mode": "live",
     "status_line": "gem live: 2 finds | research_only",
-    "updated_ct": "2026-10-16 5:48 PM CT",
-    "updated_iso": "2026-10-16T22:48:30.661028+00:00",
+    "updated_ct": "2026-10-19 9:44 AM CT",
+    "updated_iso": "2026-10-19T14:44:41.016493+00:00",
     "find_count": 2,
     "has_finds": true,
     "finds": [
@@ -107,7 +107,7 @@
     "terminal_lines": [
       "gem> mode=live research_only=1 finds=2",
       "gem> risk skeptic_hold",
-      "gem> hud 2026-10-16 5:48 PM CT"
+      "gem> hud 2026-10-19 9:44 AM CT"
     ]
   },
   "terminal_lines": [
@@ -139,12 +139,12 @@
   ],
   "trading_desk": {
     "default_mode": "paper",
-    "updated_iso": "2026-10-18T22:05:08.109590+00:00",
+    "updated_iso": "2026-10-19T13:54:39.106611+00:00",
     "paper": {
       "status": "ok",
       "mode": "PAPER",
       "active": true,
-      "updated_iso": "2026-10-18T22:05:08.109590+00:00"
+      "updated_iso": "2026-10-19T13:54:39.106611+00:00"
     },
     "live": {
       "status": "empty",
