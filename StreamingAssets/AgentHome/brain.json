@@ -1,6 +1,6 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-19T17:17:50+00:00",
+ "generated_iso": "2026-10-19T19:16:23+00:00",
  "updated": "2026-10-19",
  "note_count": 20,
  "sections": [
@@ -39,7 +39,8 @@
    ],
    "linked_agents": [
     "chief-of-staff",
-    "robinhood-desk"
+    "robinhood-desk",
+    "wallet-watch"
    ]
   },
   {
@@ -72,6 +73,7 @@
    ],
    "linked_agents": [
     "chief-of-staff",
+    "pattern-coach",
     "robinhood-desk",
     "wallet-watch"
    ]
@@ -339,7 +341,9 @@
    "owners": [
     "brain"
    ],
-   "linked_agents": []
+   "linked_agents": [
+    "pattern-coach"
+   ]
   }
  ],
  "edges": [
