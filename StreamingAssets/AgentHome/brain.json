@@ -1,17 +1,17 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-20T13:20:45+00:00",
+ "generated_iso": "2026-10-20T15:14:53+00:00",
  "updated": "2026-10-20",
- "note_count": 22,
+ "note_count": 25,
  "sections": [
   {
    "name": "core",
    "count": 4,
-   "updated": "2026-10-19"
+   "updated": "2026-10-20"
   },
   {
    "name": "out",
-   "count": 4,
+   "count": 5,
    "updated": "2026-10-20"
   },
   {
@@ -21,8 +21,8 @@
   },
   {
    "name": "state",
-   "count": 2,
-   "updated": "2026-10-18"
+   "count": 4,
+   "updated": "2026-10-20"
   }
  ],
  "notes": [
@@ -30,7 +30,7 @@
    "id": "attention.md",
    "title": "Attention",
    "section": "core",
-   "updated": "2026-10-19",
+   "updated": "2026-10-20",
    "tags": [
     "attention"
    ],
@@ -141,6 +141,22 @@
    ]
   },
   {
+   "id": "out/morning-2026-10-20.md",
+   "title": "Morning page 2026-10-20",
+   "section": "out",
+   "updated": "2026-10-20",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "robinhood-desk",
+    "setup-scout"
+   ]
+  },
+  {
    "id": "out/README.md",
    "title": "Out README",
    "section": "out",
@@ -161,7 +177,8 @@
     "brain"
    ],
    "linked_agents": [
-    "chief-of-staff"
+    "chief-of-staff",
+    "wallet-watch"
    ]
   },
   {
@@ -242,25 +259,29 @@
    "id": "projects/memecoin-scalping-playbook.md",
    "title": "Memecoin Scalping Playbook",
    "section": "projects",
-   "updated": "2026-10-18",
+   "updated": "2026-10-20",
    "tags": [
     "playbook"
    ],
    "owners": [
     "brain"
    ],
-   "linked_agents": []
+   "linked_agents": [
+    "chief-of-staff"
+   ]
   },
   {
    "id": "projects/open-decisions.md",
    "title": "Open Decisions",
    "section": "projects",
-   "updated": "2026-10-19",
+   "updated": "2026-10-20",
    "tags": [],
    "owners": [
     "brain"
    ],
-   "linked_agents": []
+   "linked_agents": [
+    "chief-of-staff"
+   ]
   },
   {
    "id": "projects/perps-trading.md",
@@ -319,7 +340,7 @@
    "id": "projects/robinhood-desk-playbook.md",
    "title": "Robinhood Desk Playbook",
    "section": "projects",
-   "updated": "2026-10-19",
+   "updated": "2026-10-20",
    "tags": [
     "playbook",
     "robinhood-desk",
@@ -349,10 +370,34 @@
    "linked_agents": []
   },
   {
+   "id": "state/CORRECTIONS.md",
+   "title": "Corrections",
+   "section": "state",
+   "updated": "2026-10-20",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "chief-of-staff"
+   ]
+  },
+  {
+   "id": "state/rsi-compare/live-2026-10-20/baseline_sandbox/projects/rsi-tracker.md",
+   "title": "Rsi Tracker",
+   "section": "state",
+   "updated": "2026-10-20",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
    "id": "state/README.md",
    "title": "State README",
    "section": "state",
-   "updated": "2026-10-18",
+   "updated": "2026-10-20",
    "tags": [],
    "owners": [
     "brain"
@@ -371,6 +416,8 @@
     "brain"
    ],
    "linked_agents": [
+    "chief-of-staff",
+    "iphone-app-builder",
     "pattern-coach"
    ]
   }
@@ -442,6 +489,10 @@
   ],
   [
    "INDEX.md",
+   "state/CORRECTIONS.md"
+  ],
+  [
+   "INDEX.md",
    "state/README.md"
   ],
   [
@@ -467,6 +518,10 @@
   [
    "log.md",
    "out/morning-2026-10-19.md"
+  ],
+  [
+   "log.md",
+   "out/morning-2026-10-20.md"
   ],
   [
    "log.md",
@@ -527,6 +582,14 @@
   [
    "out/morning-2026-10-19.md",
    "projects/rsi-tracker.md"
+  ],
+  [
+   "out/morning-2026-10-20.md",
+   "out/rsi-v2-checklist.md"
+  ],
+  [
+   "out/morning-2026-10-20.md",
+   "projects/open-decisions.md"
   ]
  ],
  "readers": [
