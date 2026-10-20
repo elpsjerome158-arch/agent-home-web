@@ -1,8 +1,8 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-19T19:16:23+00:00",
+ "generated_iso": "2026-10-20T05:14:31+00:00",
  "updated": "2026-10-19",
- "note_count": 20,
+ "note_count": 21,
  "sections": [
   {
    "name": "core",
@@ -11,7 +11,7 @@
   },
   {
    "name": "out",
-   "count": 2,
+   "count": 3,
    "updated": "2026-10-19"
   },
   {
@@ -102,6 +102,22 @@
     "setup-scout",
     "trade-journal-bot",
     "wallet-watch"
+   ]
+  },
+  {
+   "id": "out/brain-v2-audit-2026-10-19.md",
+   "title": "Brain V2 Audit  10 19",
+   "section": "out",
+   "updated": "2026-10-19",
+   "tags": [
+    "brain"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "robinhood-desk",
+    "setup-scout"
    ]
   },
   {
@@ -433,6 +449,10 @@
   ],
   [
    "log.md",
+   "out/brain-v2-audit-2026-10-19.md"
+  ],
+  [
+   "log.md",
    "out/morning-2026-10-19.md"
   ],
   [
@@ -478,6 +498,10 @@
   [
    "projects/robinhood-desk-playbook.md",
    "projects/polymarket-lessons.md"
+  ],
+  [
+   "out/brain-v2-audit-2026-10-19.md",
+   "projects/open-decisions.md"
   ],
   [
    "out/morning-2026-10-19.md",
