@@ -1,6 +1,6 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-20T17:13:41+00:00",
+ "generated_iso": "2026-10-20T19:18:05+00:00",
  "updated": "2026-10-20",
  "note_count": 25,
  "sections": [
@@ -40,6 +40,7 @@
    "linked_agents": [
     "chief-of-staff",
     "robinhood-desk",
+    "setup-scout",
     "wallet-watch"
    ]
   },
@@ -75,6 +76,7 @@
     "chief-of-staff",
     "pattern-coach",
     "robinhood-desk",
+    "setup-scout",
     "wallet-watch"
    ]
   },
@@ -418,7 +420,9 @@
    "linked_agents": [
     "chief-of-staff",
     "iphone-app-builder",
-    "pattern-coach"
+    "pattern-coach",
+    "robinhood-desk",
+    "setup-scout"
    ]
   }
  ],
@@ -590,6 +594,10 @@
   [
    "out/morning-2026-10-20.md",
    "projects/open-decisions.md"
+  ],
+  [
+   "state/tips-log.md",
+   "projects/robinhood-desk-playbook.md"
   ]
  ],
  "readers": [
