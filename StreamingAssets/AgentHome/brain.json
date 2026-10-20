@@ -1,8 +1,8 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-20T05:14:31+00:00",
- "updated": "2026-10-19",
- "note_count": 21,
+ "generated_iso": "2026-10-20T09:20:07+00:00",
+ "updated": "2026-10-20",
+ "note_count": 22,
  "sections": [
   {
    "name": "core",
@@ -11,13 +11,13 @@
   },
   {
    "name": "out",
-   "count": 3,
-   "updated": "2026-10-19"
+   "count": 4,
+   "updated": "2026-10-20"
   },
   {
    "name": "projects",
    "count": 12,
-   "updated": "2026-10-19"
+   "updated": "2026-10-20"
   },
   {
    "name": "state",
@@ -150,6 +150,19 @@
     "brain"
    ],
    "linked_agents": []
+  },
+  {
+   "id": "out/rsi-v2-checklist.md",
+   "title": "Rsi V2 Checklist",
+   "section": "out",
+   "updated": "2026-10-20",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "chief-of-staff"
+   ]
   },
   {
    "id": "projects/agent-home-unity.md",
@@ -328,7 +341,7 @@
    "id": "projects/rsi-tracker.md",
    "title": "Rsi Tracker",
    "section": "projects",
-   "updated": "2026-10-19",
+   "updated": "2026-10-20",
    "tags": [],
    "owners": [
     "brain"
@@ -457,6 +470,10 @@
   ],
   [
    "log.md",
+   "out/rsi-v2-checklist.md"
+  ],
+  [
+   "log.md",
    "projects/brain-visual.md"
   ],
   [
@@ -531,7 +548,7 @@
   "people": 3,
   "personal": 2,
   "secret_paths": 0,
-  "raw_snapshots": 59,
+  "raw_snapshots": 60,
   "note": "raw/, private/, people/ and personal notes are never published"
  },
  "redaction": "structure only: no bodies, summaries, amounts, accounts, addresses or contact details"
