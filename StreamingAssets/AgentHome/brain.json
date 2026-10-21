@@ -1,18 +1,18 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-21T13:14:31+00:00",
+ "generated_iso": "2026-10-21T15:15:22+00:00",
  "updated": "2026-10-21",
- "note_count": 25,
+ "note_count": 27,
  "sections": [
   {
    "name": "core",
-   "count": 4,
-   "updated": "2026-10-20"
+   "count": 5,
+   "updated": "2026-10-21"
   },
   {
    "name": "out",
-   "count": 5,
-   "updated": "2026-10-20"
+   "count": 6,
+   "updated": "2026-10-21"
   },
   {
    "name": "projects",
@@ -30,7 +30,7 @@
    "id": "attention.md",
    "title": "Attention",
    "section": "core",
-   "updated": "2026-10-20",
+   "updated": "2026-10-21",
    "tags": [
     "attention"
    ],
@@ -79,6 +79,19 @@
     "robinhood-desk",
     "setup-scout",
     "wallet-watch"
+   ]
+  },
+  {
+   "id": "open-decisions.md",
+   "title": "Open Decisions",
+   "section": "core",
+   "updated": "2026-10-21",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "robinhood-desk"
    ]
   },
   {
@@ -157,6 +170,23 @@
    "linked_agents": [
     "robinhood-desk",
     "setup-scout"
+   ]
+  },
+  {
+   "id": "out/morning-2026-10-21.md",
+   "title": "Morning page 2026-10-21",
+   "section": "out",
+   "updated": "2026-10-21",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "robinhood-desk",
+    "setup-scout",
+    "trade-journal-bot"
    ]
   },
   {
@@ -262,7 +292,7 @@
    "id": "projects/memecoin-scalping-playbook.md",
    "title": "Memecoin Scalping Playbook",
    "section": "projects",
-   "updated": "2026-10-20",
+   "updated": "2026-10-21",
    "tags": [
     "playbook"
    ],
@@ -343,7 +373,7 @@
    "id": "projects/robinhood-desk-playbook.md",
    "title": "Robinhood Desk Playbook",
    "section": "projects",
-   "updated": "2026-10-20",
+   "updated": "2026-10-21",
    "tags": [
     "playbook",
     "robinhood-desk",
@@ -531,6 +561,10 @@
   ],
   [
    "log.md",
+   "out/morning-2026-10-21.md"
+  ],
+  [
+   "log.md",
    "out/rsi-v2-checklist.md"
   ],
   [
@@ -595,6 +629,10 @@
   ],
   [
    "out/morning-2026-10-20.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "out/morning-2026-10-21.md",
    "projects/open-decisions.md"
   ],
   [
