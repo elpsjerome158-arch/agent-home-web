@@ -1,7 +1,7 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-22T05:15:47+00:00",
- "updated": "2026-10-21",
+ "generated_iso": "2026-10-22T09:18:03+00:00",
+ "updated": "2026-10-22",
  "note_count": 21,
  "sections": [
   {
@@ -12,7 +12,7 @@
   {
    "name": "projects",
    "count": 12,
-   "updated": "2026-10-21"
+   "updated": "2026-10-22"
   },
   {
    "name": "state",
@@ -297,7 +297,7 @@
    "id": "projects/rsi-tracker.md",
    "title": "Rsi Tracker",
    "section": "projects",
-   "updated": "2026-10-21",
+   "updated": "2026-10-22",
    "tags": [],
    "owners": [
     "brain"
@@ -513,7 +513,7 @@
   "people": 3,
   "personal": 2,
   "secret_paths": 0,
-  "raw_snapshots": 61,
+  "raw_snapshots": 62,
   "note": "raw/, private/, people/ and personal notes are never published"
  },
  "redaction": "structure only: no bodies, summaries, amounts, accounts, addresses or contact details"
