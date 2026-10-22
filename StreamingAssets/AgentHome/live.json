@@ -1,31 +1,31 @@
 {
-  "updated_ct": "2026-10-21 5:49 PM CT",
-  "updated_iso": "2026-10-21T22:49:48.918601+00:00",
+  "updated_ct": "2026-10-21 6:40 PM CT",
+  "updated_iso": "2026-10-21T23:40:00+00:00",
   "sample": false,
   "has_scout": true,
   "scout": {
-    "status_line": "SOL 108 +1.6% BTC 85K +2.4% ETH 2498 +2.0%",
-    "updated_ct": "2026-10-21 4:40 PM CT",
+    "status_line": "SOL 107 +0.4% BTC 84K +1.6% ETH 2474 +1.1%",
+    "updated_ct": "2026-10-21 6:40 PM CT",
     "source": "state.json",
-    "sol_mark": 108.2546,
-    "sol_chg_24h_pct": 1.5579540122008462,
-    "sol_funding_okx_8h_pct": 0.00785927110462,
-    "sol_oi_okx_usd": 316633668.30539995,
+    "sol_mark": 106.89,
+    "sol_chg_24h_pct": 0.4323308270676618,
+    "sol_funding_okx_8h_pct": 0.00437046561154,
+    "sol_oi_okx_usd": 310016230.74240005,
     "sol_lo_24h": 105.54,
     "sol_hi_24h": 109.17,
-    "btc_mark": 84777.0,
-    "btc_chg_24h_pct": 2.3862926768582593,
-    "btc_funding_okx_8h_pct": -0.0032068682223500003,
-    "btc_oi_okx_usd": 2663544537.7213674,
-    "eth_mark": 2499.2,
-    "eth_chg_24h_pct": 2.0166378750566594,
-    "eth_funding_okx_8h_pct": 0.0010404309685400001,
-    "eth_oi_okx_usd": 1413192117.9396632,
-    "sol_panel": "$108.21\n24h +1.6%\nOI $0.32B",
-    "btc_panel": "$84,769.40\n24h +2.4%\nOI $2.66B",
-    "eth_panel": "$2,498.01\n24h +2.0%\nOI $1.41B",
-    "funding_panel": "SOL +0.0079%    BTC -0.0032%    ETH +0.0010%    live",
-    "brief_panel": "SOL $108.21 +1.6% bullish  $105.54\u2013$109.17\nBTC $84,769 +2.4% bullish  $82,588\u2013$84,876\nETH $2,498 +2.0% bullish  $2,436\u2013$2,528\nFund 8h: SOL +0.0079% BTC -0.0032% ETH +0.0010%\nUpdated: 2026-10-21 4:40 PM CT"
+    "btc_mark": 84225.0,
+    "btc_chg_24h_pct": 1.611827143603417,
+    "btc_funding_okx_8h_pct": -0.00464424082113,
+    "btc_oi_okx_usd": 2638541974.922787,
+    "eth_mark": 2474.9,
+    "eth_chg_24h_pct": 1.1259926514163965,
+    "eth_funding_okx_8h_pct": 0.00295477912223,
+    "eth_oi_okx_usd": 1389273329.433293,
+    "sol_panel": "$106.86\n24h +0.4%\nOI $0.31B",
+    "btc_panel": "$84,223.30\n24h +1.6%\nOI $2.64B",
+    "eth_panel": "$2,474.28\n24h +1.1%\nOI $1.39B",
+    "funding_panel": "SOL +0.0044%    BTC -0.0046%    ETH +0.0030%    live",
+    "brief_panel": "SOL $106.86 +0.4% neutral  $105.54\u2013$109.17\nBTC $84,223 +1.6% bullish  $82,588\u2013$84,876\nETH $2,474 +1.1% bullish  $2,436\u2013$2,528\nFund 8h: SOL +0.0044% BTC -0.0046% ETH +0.0030%\nUpdated: 2026-10-21 6:40 PM CT"
   },
   "journal": {
     "weekly_wins": 0,
@@ -188,10 +188,10 @@
     ]
   },
   "terminal_lines": [
-    "scout> SOL $108.21 (+1.6%) fund +0.0079%",
-    "scout> BTC $84,769 (+2.4%) OI $2.66B",
-    "scout> ETH $2,498.01 (+2.0%) OI $1.41B",
-    "scout> state.json @ 2026-10-21 4:40 PM CT",
+    "scout> SOL $106.86 (+0.4%) fund +0.0044%",
+    "scout> BTC $84,223 (+1.6%) OI $2.64B",
+    "scout> ETH $2,474.28 (+1.1%) OI $1.39B",
+    "scout> state.json @ 2026-10-21 6:40 PM CT",
     "journal> private",
     "wallet> private",
     "gem> mode=simulation research_only=1 finds=5"
@@ -199,7 +199,7 @@
   "agent_status_lines": [
     {
       "id": "perps-market-scout",
-      "line": "SOL 108 +1.6% BTC 85K +2.4% ETH 2498 +2.0%"
+      "line": "SOL 107 +0.4% BTC 84K +1.6% ETH 2474 +1.1%"
     },
     {
       "id": "trade-journal-bot",
@@ -216,12 +216,12 @@
   ],
   "trading_desk": {
     "default_mode": "paper",
-    "updated_iso": "2026-10-21T21:55:25.970174+00:00",
+    "updated_iso": "2026-10-22T00:26:10.353963+00:00",
     "paper": {
       "status": "ok",
       "mode": "PAPER",
       "active": true,
-      "updated_iso": "2026-10-21T21:55:25.970174+00:00"
+      "updated_iso": "2026-10-22T00:26:10.353963+00:00"
     },
     "live": {
       "status": "empty",
