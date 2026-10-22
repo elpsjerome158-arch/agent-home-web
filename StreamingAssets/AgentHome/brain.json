@@ -1,13 +1,18 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-22T13:15:53+00:00",
+ "generated_iso": "2026-10-22T15:14:26+00:00",
  "updated": "2026-10-22",
- "note_count": 21,
+ "note_count": 33,
  "sections": [
   {
    "name": "core",
    "count": 5,
-   "updated": "2026-10-21"
+   "updated": "2026-10-22"
+  },
+  {
+   "name": "out",
+   "count": 6,
+   "updated": "2026-10-22"
   },
   {
    "name": "projects",
@@ -16,8 +21,8 @@
   },
   {
    "name": "state",
-   "count": 4,
-   "updated": "2026-10-21"
+   "count": 10,
+   "updated": "2026-10-22"
   }
  ],
  "notes": [
@@ -25,7 +30,7 @@
    "id": "attention.md",
    "title": "Attention",
    "section": "core",
-   "updated": "2026-10-21",
+   "updated": "2026-10-22",
    "tags": [
     "attention"
    ],
@@ -115,6 +120,86 @@
     "trade-journal-bot",
     "wallet-watch"
    ]
+  },
+  {
+   "id": "out/brain-v2-audit-2026-10-19.md",
+   "title": "Brain V2 Audit  10 19",
+   "section": "out",
+   "updated": "2026-10-19",
+   "tags": [
+    "brain"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "out/morning-2026-10-20.md",
+   "title": "Morning page 2026-10-20",
+   "section": "out",
+   "updated": "2026-10-20",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "setup-scout"
+   ]
+  },
+  {
+   "id": "out/morning-2026-10-21.md",
+   "title": "Morning page 2026-10-21",
+   "section": "out",
+   "updated": "2026-10-21",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "out/morning-2026-10-22.md",
+   "title": "Morning page 2026-10-22",
+   "section": "out",
+   "updated": "2026-10-22",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout"
+   ]
+  },
+  {
+   "id": "out/README.md",
+   "title": "Out README",
+   "section": "out",
+   "updated": "2026-10-22",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "out/rsi-v2-checklist.md",
+   "title": "Rsi V2 Checklist",
+   "section": "out",
+   "updated": "2026-10-22",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
   },
   {
    "id": "projects/agent-home-unity.md",
@@ -288,6 +373,7 @@
     "chief-of-staff",
     "devils-advocate",
     "pattern-coach",
+    "perps-market-scout",
     "risk-coach",
     "robinhood-desk",
     "setup-scout"
@@ -299,6 +385,19 @@
    "section": "projects",
    "updated": "2026-10-22",
    "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "state/out-backup/brain-v2-audit-2026-10-19.md",
+   "title": "Brain V2 Audit  10 19",
+   "section": "state",
+   "updated": "2026-10-19",
+   "tags": [
+    "brain"
+   ],
    "owners": [
     "brain"
    ],
@@ -318,10 +417,66 @@
    ]
   },
   {
+   "id": "state/out-backup/morning-2026-10-20.md",
+   "title": "Morning page 2026-10-20",
+   "section": "state",
+   "updated": "2026-10-20",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "setup-scout"
+   ]
+  },
+  {
+   "id": "state/out-backup/morning-2026-10-21.md",
+   "title": "Morning page 2026-10-21",
+   "section": "state",
+   "updated": "2026-10-21",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "state/out-backup/morning-2026-10-22.md",
+   "title": "Morning page 2026-10-22",
+   "section": "state",
+   "updated": "2026-10-22",
+   "tags": [
+    "morning"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout"
+   ]
+  },
+  {
    "id": "state/rsi-compare/live-2026-10-20/baseline_sandbox/projects/rsi-tracker.md",
    "title": "Rsi Tracker",
    "section": "state",
    "updated": "2026-10-20",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "state/out-backup/rsi-v2-checklist.md",
+   "title": "Rsi V2 Checklist",
+   "section": "state",
+   "updated": "2026-10-22",
    "tags": [],
    "owners": [
     "brain"
@@ -340,6 +495,17 @@
    "linked_agents": [
     "iphone-app-builder"
    ]
+  },
+  {
+   "id": "state/out-backup/README.md",
+   "title": "State/Out-Backup README",
+   "section": "state",
+   "updated": "2026-10-22",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
   },
   {
    "id": "state/tips-log.md",
@@ -368,6 +534,10 @@
   [
    "INDEX.md",
    "log.md"
+  ],
+  [
+   "INDEX.md",
+   "out/README.md"
   ],
   [
    "INDEX.md",
@@ -447,6 +617,26 @@
   ],
   [
    "log.md",
+   "out/brain-v2-audit-2026-10-19.md"
+  ],
+  [
+   "log.md",
+   "out/morning-2026-10-20.md"
+  ],
+  [
+   "log.md",
+   "out/morning-2026-10-21.md"
+  ],
+  [
+   "log.md",
+   "out/morning-2026-10-22.md"
+  ],
+  [
+   "log.md",
+   "out/rsi-v2-checklist.md"
+  ],
+  [
+   "log.md",
    "projects/brain-visual.md"
   ],
   [
@@ -490,7 +680,23 @@
    "projects/polymarket-lessons.md"
   ],
   [
+   "out/morning-2026-10-22.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "out/morning-2026-10-22.md",
+   "projects/robinhood-desk-playbook.md"
+  ],
+  [
    "state/tips-log.md",
+   "projects/robinhood-desk-playbook.md"
+  ],
+  [
+   "state/out-backup/morning-2026-10-22.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "state/out-backup/morning-2026-10-22.md",
    "projects/robinhood-desk-playbook.md"
   ]
  ],
