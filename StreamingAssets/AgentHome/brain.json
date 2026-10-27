@@ -1,6 +1,6 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-27T17:21:33+00:00",
+ "generated_iso": "2026-10-27T19:19:03+00:00",
  "updated": "2026-10-27",
  "note_count": 37,
  "sections": [
@@ -39,6 +39,7 @@
    ],
    "linked_agents": [
     "chief-of-staff",
+    "iphone-app-builder",
     "robinhood-desk",
     "trade-journal-bot",
     "wallet-watch"
