@@ -1,8 +1,8 @@
 {
  "schema": "agent-home-brain-public/1",
- "generated_iso": "2026-10-27T21:18:50+00:00",
+ "generated_iso": "2026-10-27T23:18:49+00:00",
  "updated": "2026-10-27",
- "note_count": 37,
+ "note_count": 41,
  "sections": [
   {
    "name": "core",
@@ -11,17 +11,17 @@
   },
   {
    "name": "out",
-   "count": 8,
+   "count": 9,
    "updated": "2026-10-27"
   },
   {
    "name": "projects",
-   "count": 12,
+   "count": 13,
    "updated": "2026-10-27"
   },
   {
    "name": "state",
-   "count": 12,
+   "count": 14,
    "updated": "2026-10-27"
   }
  ],
@@ -75,6 +75,7 @@
    ],
    "linked_agents": [
     "chief-of-staff",
+    "iphone-app-builder",
     "pattern-coach",
     "risk-coach",
     "robinhood-desk",
@@ -130,6 +131,17 @@
    "tags": [
     "brain"
    ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "out/intel-2026-10-27.md",
+   "title": "Intel  10 27",
+   "section": "out",
+   "updated": "2026-10-27",
+   "tags": [],
    "owners": [
     "brain"
    ],
@@ -425,6 +437,34 @@
    "linked_agents": []
   },
   {
+   "id": "projects/trading-engine-phase0.md",
+   "title": "Trading Engine Phase0",
+   "section": "projects",
+   "updated": "2026-10-27",
+   "tags": [
+    "trading"
+   ],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": [
+    "agent-home-builder",
+    "cash-flow-agent",
+    "chief-of-staff",
+    "devils-advocate",
+    "gem-search",
+    "grok-bot",
+    "iphone-app-builder",
+    "pattern-coach",
+    "perps-market-scout",
+    "risk-coach",
+    "robinhood-desk",
+    "setup-scout",
+    "trade-journal-bot",
+    "wallet-watch"
+   ]
+  },
+  {
    "id": "state/out-backup/brain-v2-audit-2026-10-19.md",
    "title": "Brain V2 Audit  10 19",
    "section": "state",
@@ -449,6 +489,17 @@
    "linked_agents": [
     "chief-of-staff"
    ]
+  },
+  {
+   "id": "state/out-backup/intel-2026-10-27.md",
+   "title": "Intel  10 27",
+   "section": "state",
+   "updated": "2026-10-27",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
   },
   {
    "id": "state/out-backup/morning-2026-10-20.md",
@@ -544,6 +595,17 @@
    "title": "Rsi V2 Checklist",
    "section": "state",
    "updated": "2026-10-22",
+   "tags": [],
+   "owners": [
+    "brain"
+   ],
+   "linked_agents": []
+  },
+  {
+   "id": "state/kb/SCHEMA.md",
+   "title": "Schema",
+   "section": "state",
+   "updated": "2026-10-27",
    "tags": [],
    "owners": [
     "brain"
@@ -656,6 +718,10 @@
   ],
   [
    "INDEX.md",
+   "projects/trading-engine-phase0.md"
+  ],
+  [
+   "INDEX.md",
    "rules.md"
   ],
   [
@@ -685,6 +751,10 @@
   [
    "log.md",
    "out/brain-v2-audit-2026-10-19.md"
+  ],
+  [
+   "log.md",
+   "out/intel-2026-10-27.md"
   ],
   [
    "log.md",
@@ -739,6 +809,10 @@
    "projects/rsi-tracker.md"
   ],
   [
+   "log.md",
+   "projects/trading-engine-phase0.md"
+  ],
+  [
    "rules.md",
    "projects/robinhood-desk-playbook.md"
   ],
@@ -753,6 +827,22 @@
   [
    "projects/robinhood-desk-playbook.md",
    "projects/polymarket-lessons.md"
+  ],
+  [
+   "projects/trading-engine-phase0.md",
+   "out/intel-2026-10-27.md"
+  ],
+  [
+   "projects/trading-engine-phase0.md",
+   "out/rsi-v2-checklist.md"
+  ],
+  [
+   "projects/trading-engine-phase0.md",
+   "projects/open-decisions.md"
+  ],
+  [
+   "projects/trading-engine-phase0.md",
+   "projects/rsi-tracker.md"
   ],
   [
    "out/morning-2026-10-22.md",
@@ -802,7 +892,7 @@
   "people": 3,
   "personal": 2,
   "secret_paths": 0,
-  "raw_snapshots": 64,
+  "raw_snapshots": 65,
   "note": "raw/, private/, people/ and personal notes are never published"
  },
  "redaction": "structure only: no bodies, summaries, amounts, accounts, addresses or contact details"
