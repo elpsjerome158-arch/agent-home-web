@@ -139,12 +139,12 @@
   ],
   "trading_desk": {
     "default_mode": "paper",
-    "updated_iso": "2026-11-04T22:52:02.168947+00:00",
+    "updated_iso": "2026-11-05T13:37:34.205046+00:00",
     "paper": {
       "status": "ok",
       "mode": "PAPER",
       "active": true,
-      "updated_iso": "2026-11-04T22:52:02.168947+00:00"
+      "updated_iso": "2026-11-05T13:37:34.205046+00:00"
     },
     "live": {
       "status": "empty",
