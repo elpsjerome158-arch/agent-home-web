@@ -1,31 +1,31 @@
 {
-  "updated_ct": "2026-11-09 10:38 AM CT",
-  "updated_iso": "2026-11-09T16:38:58+00:00",
+  "updated_ct": "2026-11-09 1:45 PM CT",
+  "updated_iso": "2026-11-09T19:45:58.630002+00:00",
   "sample": false,
   "has_scout": true,
   "scout": {
-    "status_line": "SOL 87 -2.8% BTC 75K -1.3% ETH 2131 -4.7%",
-    "updated_ct": "2026-11-09 10:38 AM CT",
+    "status_line": "SOL 87 -3.3% BTC 75K -1.7% ETH 2126 -4.9%",
+    "updated_ct": "2026-11-09 12:40 PM CT",
     "source": "state.json",
-    "sol_mark": 86.9,
-    "sol_chg_24h_pct": -2.7746699485343362,
-    "sol_funding_okx_8h_pct": 0.00320467495928,
-    "sol_oi_okx_usd": 303524721.47800004,
+    "sol_mark": 86.669,
+    "sol_chg_24h_pct": -3.3125139415569937,
+    "sol_funding_okx_8h_pct": 0.00264954447179,
+    "sol_oi_okx_usd": 302737481.7525001,
     "sol_lo_24h": 84.81,
-    "sol_hi_24h": 89.96,
-    "btc_mark": 74953.0,
-    "btc_chg_24h_pct": -1.3456698468861217,
-    "btc_funding_okx_8h_pct": 0.00646020546805,
-    "btc_oi_okx_usd": 2634592810.787221,
-    "eth_mark": 2130.8,
-    "eth_chg_24h_pct": -4.692503085702016,
-    "eth_funding_okx_8h_pct": 0.00323925268393,
-    "eth_oi_okx_usd": 1443641990.5377946,
-    "sol_panel": "$86.90\n24h -2.8%\nOI $0.30B",
-    "btc_panel": "$74,947.30\n24h -1.3%\nOI $2.63B",
-    "eth_panel": "$2,131.19\n24h -4.7%\nOI $1.44B",
-    "funding_panel": "SOL +0.0032%    BTC +0.0065%    ETH +0.0032%    live",
-    "brief_panel": "SOL $86.90 -2.8% bearish  $84.81\u2013$89.96\nBTC $74,947 -1.3% bearish  $73,385\u2013$75,973\nETH $2,131 -4.7% bearish  $2,052\u2013$2,238\nFund 8h: SOL +0.0032% BTC +0.0065% ETH +0.0032%\nUpdated: 2026-11-09 10:38 AM CT"
+    "sol_hi_24h": 89.73,
+    "btc_mark": 74633.0,
+    "btc_chg_24h_pct": -1.6779548945071054,
+    "btc_funding_okx_8h_pct": 0.00908763960137,
+    "btc_oi_okx_usd": 2598508821.527151,
+    "eth_mark": 2125.9,
+    "eth_chg_24h_pct": -4.872101191514866,
+    "eth_funding_okx_8h_pct": 0.0030955244110099996,
+    "eth_oi_okx_usd": 1431110277.5100043,
+    "sol_panel": "$86.69\n24h -3.3%\nOI $0.30B",
+    "btc_panel": "$74,645.90\n24h -1.7%\nOI $2.60B",
+    "eth_panel": "$2,126.08\n24h -4.9%\nOI $1.43B",
+    "funding_panel": "SOL +0.0026%    BTC +0.0091%    ETH +0.0031%    live",
+    "brief_panel": "SOL $86.69 -3.3% bearish  $84.81\u2013$89.73\nBTC $74,646 -1.7% bearish  $73,385\u2013$75,934\nETH $2,126 -4.9% bearish  $2,052\u2013$2,236\nFund 8h: SOL +0.0026% BTC +0.0091% ETH +0.0031%\nUpdated: 2026-11-09 12:40 PM CT"
   },
   "journal": {
     "weekly_wins": 0,
@@ -45,8 +45,8 @@
     "research_only": true,
     "mode": "live",
     "status_line": "gem live: 2 finds | research_only",
-    "updated_ct": "2026-11-09 9:51 AM CT",
-    "updated_iso": "2026-11-09T15:51:16.186904+00:00",
+    "updated_ct": "2026-11-09 1:45 PM CT",
+    "updated_iso": "2026-11-09T19:45:58.630002+00:00",
     "find_count": 2,
     "has_finds": true,
     "finds": [
@@ -107,14 +107,14 @@
     "terminal_lines": [
       "gem> mode=live research_only=1 finds=2",
       "gem> risk skeptic_hold",
-      "gem> hud 2026-11-09 9:51 AM CT"
+      "gem> hud 2026-11-09 1:45 PM CT"
     ]
   },
   "terminal_lines": [
-    "scout> SOL $86.90 (-2.8%) fund +0.0032%",
-    "scout> BTC $74,947 (-1.3%) OI $2.63B",
-    "scout> ETH $2,131.19 (-4.7%) OI $1.44B",
-    "scout> state.json @ 2026-11-09 10:38 AM CT",
+    "scout> SOL $86.69 (-3.3%) fund +0.0026%",
+    "scout> BTC $74,646 (-1.7%) OI $2.60B",
+    "scout> ETH $2,126.08 (-4.9%) OI $1.43B",
+    "scout> state.json @ 2026-11-09 12:40 PM CT",
     "journal> private",
     "wallet> private",
     "gem> mode=live research_only=1 finds=2"
@@ -122,7 +122,7 @@
   "agent_status_lines": [
     {
       "id": "perps-market-scout",
-      "line": "SOL 87 -2.8% BTC 75K -1.3% ETH 2131 -4.7%"
+      "line": "SOL 87 -3.3% BTC 75K -1.7% ETH 2126 -4.9%"
     },
     {
       "id": "trade-journal-bot",
@@ -139,12 +139,12 @@
   ],
   "trading_desk": {
     "default_mode": "paper",
-    "updated_iso": "2026-11-09T14:53:38.605471+00:00",
+    "updated_iso": "2026-11-09T18:58:05.129578+00:00",
     "paper": {
       "status": "ok",
       "mode": "PAPER",
       "active": true,
-      "updated_iso": "2026-11-09T14:53:38.605471+00:00"
+      "updated_iso": "2026-11-09T18:58:05.129578+00:00"
     },
     "live": {
       "status": "empty",
